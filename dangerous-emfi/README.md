@@ -16,7 +16,7 @@ Generally, EMFI is one of three types of architectures:
 
 Of those three, "direct drive" is somewhat easiest to swap probe tips for. But the downside is that it can expose the high voltage most directly to the probe tip (and thus user or DUT). Of the two "direct drive" architectures the low-side switching is easiest to build, but by far the most dangerous. This is because the capacitor bank is *always* present at the output, rather than being switched on only when needed.
 
-My commercial tool, the [ChipSHOUTER}(https://www.newae.com/chipshouter) contains several safety features, including:
+My commercial tool, the [ChipSHOUTER](https://www.newae.com/chipshouter) contains several safety features, including:
 
 * 'High-side switching' drive ensures high voltage present only during pulses.
 * Passive HV bleed resistor on capacitor bank, discharges in ~30 seconds.
